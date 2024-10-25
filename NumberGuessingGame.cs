@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace NumberGuessingGame
+namespace Übung
 {
-    class NumberGuessingGame
+    internal class NumberGuessingGame
     {
-        static void Main(string[] args)
+        public static void NGG()
         {
             Random random = new Random();
             bool playAgain = true;
@@ -30,20 +30,25 @@ namespace NumberGuessingGame
 
                     if (guess > number)
                     {
+                        Console.Clear();
                         Console.WriteLine(guess + " is to high!");
                     }
                     else if (guess < number)
                     {
+                        Console.Clear();
                         Console.WriteLine(guess + " is to low!");
                     }
                     guesses++;
                 }
+                Console.Clear();
                 Console.WriteLine("Number: " + number);
                 Console.WriteLine("YOU WIN!");
                 Console.WriteLine("Guesses: " + guesses);
 
                 Console.WriteLine("Would you like to play again (Y/N): ");
 
+                while (response != "y" && response != "n")
+                {
                     response = Console.ReadLine();
                     response = response.ToLower();
 
@@ -56,7 +61,9 @@ namespace NumberGuessingGame
                         playAgain = false;
                     }
                     else { Console.WriteLine("Only use y or n please!"); }
+                }
             }
+                   
 
             Console.WriteLine("Thanks for playing!");
 
