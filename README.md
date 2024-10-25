@@ -3,14 +3,13 @@
 Hello! I’m Kevin Neumann, a German student passionate about technology and learning new skills. I'm currently focused on developing my knowledge in areas like Backend programming . 🚀
 
 ### Current Focus 🎓
-- 📚 Currently studying [Your School or Program, e.g., high school, computer science, or electronics]
-- 🌱 Learning more about [specific skills or technologies, e.g., Python programming, data visualization]
+- 📚 Currently studying for my school (Comparable to a high school)
+- 🌱 Learning more about Coding
 - 🎯 Building projects to deepen my understanding of C#
 
 ### Personal Projects 🚀
-- **Number Guessing Game**: Brief description of what it does or its purpose (e.g., "A weather app that uses real-time data")
-- **Rock Scissor Paper Game**: Another project you’re working on or planning to start
-- [Optional] Links to repositories or demos if available
+- **Number Guessing Game**: 
+- **Rock Scissor Paper Game**:
 
 ### Skills & Tools 🛠️
 - **Languages**: C#, Java, HTML, CSS
